@@ -12,7 +12,7 @@ The bot was developed using existing Go modules and uses the following modules:
 
 ## How to use the bot?
 ---
-### **Edit the .env File**
+### **Edit the .env_template file and rename it to .env**
 
 BOT_NAME={YOUR_BOT_NAME}\
 BOT_OAUTH=oauth:{YOUR_OAUTH_TOKEN}\
