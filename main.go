@@ -165,7 +165,7 @@ func main() {
 		}
 		if message.Message == "?startabb" && message.User.ID == os.Getenv("BOT_OWNER_ID") {
 			client.Say(message.Channel, "Automatic Bot banning activated.")
-			c.AddFunc("* 10 * * * *", func() { checkUser(message.Channel, friendlyBots) })
+			c.AddFunc("0 10 * * * *", func() { checkUser(message.Channel, friendlyBots) })
 			c.Start()
 		}
 		if message.Message == "?stopabb" && message.User.ID == os.Getenv("BOT_OWNER_ID") {
