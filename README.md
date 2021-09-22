@@ -14,21 +14,24 @@ The bot was developed using existing Go modules and uses the following modules:
 
 ### **Edit the .env_template file and rename it to .env**
 
-BOT_NAME={YOUR_BOT_NAME}
-BOT_OAUTH=oauth:{YOUR_OAUTH_TOKEN}
-BOT_OWNER_ID={YOUR_TWITCH_ID}
-TWITCH_CHANNEL={YOUR_TWITCH_CHANNEL}
+BOT_NAME={YOUR_BOT_NAME} \
+BOT_OAUTH=oauth:{YOUR_OAUTH_TOKEN} \
+BOT_OWNER_ID={YOUR_TWITCH_ID} \
+TWITCH_CHANNEL={YOUR_TWITCH_CHANNEL} \
 FRIENDLY_BOTS={YOUR_TWITCH_BOTS}
 
 How to get a Twitch OAUTH Token?
-<https://twitchapps.com/tmi/>
-<https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/>
+
+- <https://twitchapps.com/tmi/>
+- <https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/>
 
 How to Convert Twitch Username to User ID?
-<https://www.streamweasels.com/support/convert-twitch-username-to-user-id/>
+
+- <https://www.streamweasels.com/support/convert-twitch-username-to-user-id/>
 
 or just via the TwitchAPI:
-<https://dev.twitch.tv/docs/api/reference#get-users>
+
+- <https://dev.twitch.tv/docs/api/reference#get-users>
 
 ## Bot Commands
 
